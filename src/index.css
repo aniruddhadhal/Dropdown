@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* App component style */
+
+.app {
+    height: 40vh;
+    background-color: #097EAB;
+    padding: 20px 40px;
+    position: relative;
+    border: 2px solid rgb(220, 195, 66);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ans-p {
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+}
+
+
+/* Home component style */
+
+.home button {
+    margin: 2px 0px;
+    width: 200px;
+    color: #000304;
+    background-color: white;
+    padding: 10px 20px;
+    border: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+/* Dropdown component style */
+
+.dropdown {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 10px 20px;
+}
+
+.dropdown p {
+    width: 100%;
+    font-size: 18px;
+    color: #00070c;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+
+.dropdown p:hover {
+    background-color: #1808fe;
+    color: rgb(242, 234, 234);
+    padding: 10px;
+}
